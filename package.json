@@ -3,16 +3,19 @@
   "version": "1.0.0",
   "description": "Example Frida agent written in TypeScript",
   "private": true,
-  "main": "agent/index.ts",
+  "main": "agent/hi_shiftup_dont_mind_me4.ts",
   "scripts": {
     "prepare": "npm run build",
-    "build": "frida-compile agent/index.ts -o _agent.js -c",
-    "watch": "frida-compile agent/index.ts -o _agent.js -w"
+    "build": "frida-compile agent/hi_shiftup_dont_mind_me4.ts -o hi_shiftup_dont_mind_me4.js -c",
+    "watch": "frida-compile agent/hi_shiftup_dont_mind_me4.ts -o hi_shiftup_dont_mind_me4.js -w"
   },
   "devDependencies": {
     "@types/frida-gum": "^19.0.0",
     "@types/node": "^18.19.111",
     "frida-compile": "^19.0.4",
     "frida-java-bridge": "^7.0.1"
+  },
+  "dependencies": {
+    "frida-il2cpp-bridge": "^0.12.1"
   }
 }
