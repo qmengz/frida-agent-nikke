@@ -16,6 +16,7 @@
     "frida-java-bridge": "^7.0.1"
   },
   "dependencies": {
-    "frida-il2cpp-bridge": "^0.12.1"
+    "frida-il2cpp-bridge": "^0.12.1",
+    "protobufjs": "^7.5.4"
   }
 }
